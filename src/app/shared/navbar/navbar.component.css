@@ -1,0 +1,7 @@
+nav img {
+  transition: .3s ease;
+}
+
+nav img:hover {
+  transform: scale(1.05);
+}

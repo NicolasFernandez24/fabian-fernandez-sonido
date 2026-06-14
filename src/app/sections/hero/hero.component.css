@@ -1,0 +1,26 @@
+.hero-bg {
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(34, 211, 238, 0.15),
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at bottom left,
+      rgba(168, 85, 247, 0.10),
+      transparent 35%
+    );
+}
+
+.yellow-glow{
+  position:absolute;
+  width:700px;
+  height:700px;
+  right:-200px;
+  top:-150px;
+  border-radius:9999px;
+
+  background:rgba(250,204,21,.15);
+
+  filter:blur(120px);
+}
